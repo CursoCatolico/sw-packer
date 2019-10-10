@@ -28,7 +28,7 @@ var service_worker_routes = function(rurl){
     rurl.indexOf('google-analytics.com') == -1 && 
     rurl.indexOf('.pdf') == -1 && 
     rurl.indexOf('serviceworker.js') == -1 && 
-    rurl.indexOf('mywebsite.zip') == -1 && 
+    rurl.indexOf('.zip') == -1;
 }
 
 /* typedarray.js
